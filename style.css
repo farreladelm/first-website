@@ -1,0 +1,53 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(montse.jpg) no-repeat center center fixed; /*tidak mengulangi gambar, tengah(vertikal) tengah(horizontal) tidak bergerak jika size window berubah*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #e2dbdb;
+}
+
+hr {
+	border-color: #FF7111;
+	border-width: 3px;
+	max-width: 60px;
+}
+
+.buffer {
+	height: 8rem;
+}
+.btn {
+	color: #e2dbdb;
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: #FF7111;
+	border-color: #FF7111;
+	animation: all 1s;
+}
+
+.btn-primary:hover {
+	background-color: #EB5F00;
+	border-color: #EB5F00;
+	transform: scale(1.1);
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
